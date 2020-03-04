@@ -1,0 +1,14 @@
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\bin\Debug\Week3CodeAlong.exe.config
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\bin\Debug\Week3CodeAlong.exe
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\bin\Debug\Week3CodeAlong.pdb
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.csprojAssemblyReference.cache
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\MainWindow.g.cs
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\App.g.cs
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong_MarkupCompile.cache
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong_MarkupCompile.lref
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\MainWindow.baml
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.g.resources
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.Properties.Resources.resources
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.csproj.GenerateResource.cache
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.exe
+C:\Users\Club2\source\repos\htc-cs-102\Week3CodeAlong\Week3CodeAlong\obj\Debug\Week3CodeAlong.pdb
