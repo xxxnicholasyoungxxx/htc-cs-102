@@ -37,6 +37,14 @@ namespace Week_3_code_along
             Dog dog = new Dog();
             dog.Name = dogName;
             dog.SayName();
+
+            Duck duck = new Duck();
+            duck.Name = "Duck";
+            duck.Age = 5678;
+            duck.attackDamage = 23876478;
+
+            duck.Honk();
+            duck.AQuack();
         }
     }
 }
