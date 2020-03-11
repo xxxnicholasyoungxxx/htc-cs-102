@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,11 +21,12 @@ namespace Week_4_Code_Along
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<Movie> movieList;
+        private ObservableCollection<Movie> MovieList;
         public MainWindow()
         {
             InitializeComponent();
-            movieList = new List<Movie>();
+            MovieList = new ObservableCollection<Movie>();
+            lvMovies.ItemsSource = MovieList;
         }
 
         //private void Button_Click(object sender, RoutedEventArgs e)
@@ -34,8 +36,8 @@ namespace Week_4_Code_Along
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            Movie movie = new Movie(titleInput.Text, Convert.ToInt32(releaseYearInput.Text));
-            movieList.Add(movie);
+            Movie movie = new Movie(titleInput.Text, Convert.ToInt32(releaseYearInput.Text), Convert.ToDouble();
+            MovieList.Add(movie);
 
             titleInput.Clear();
             releaseYearInput.Clear();
@@ -43,9 +45,18 @@ namespace Week_4_Code_Along
 
         private void ShowButton_Click(object sender, RoutedEventArgs e)
         {
-            foreach (Movie movie in movieList)
+            foreach (Movie movie in MovieList)
             {
                 movie.ShowDetails();
+            }
+        }
+
+        private void lvMovies_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Movie selectedMovie = lvMovies.SelectedItem as Movie;
+            if (selectedMovie != null)
+            {
+                selectedMovie.ShowDetails();
             }
         }
     }
